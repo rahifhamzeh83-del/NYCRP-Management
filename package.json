@@ -1,0 +1,23 @@
+{
+  "name": "nycrp-management",
+  "version": "1.0.0",
+  "description": "NYCRP Management Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "discord",
+    "erlc",
+    "nycrp"
+  ],
+  "author": "NYCRP",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "dotenv": "^16.4.7",
+    "mongoose": "^8.10.0",
+    "axios": "^1.8.1"
+  }
+}
